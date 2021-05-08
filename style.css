@@ -1,0 +1,124 @@
+bodu{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+#box{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 50px auto;
+    border:none;
+    border-radius: 10px;
+}
+
+#content-1{
+    background-color: hsl(31, 77%, 52%);
+    width: 33%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+#content-2{
+    background-color: hsl(184, 100%, 22%);
+    width: 34%;
+}
+
+#content-3{
+    background-color: hsl(179, 100%, 13%);
+    width: 33%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.title-car{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:40px;
+    color:white;
+    margin-left: 40px;
+}
+
+.content-text{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 70%;
+    font-size: 15px;
+    padding-left: 40px;
+    line-height: 25px;
+    text-align:left;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.img-car{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.button{
+    margin: 60px 0 0 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    line-height: 40px;
+    transition:0.15s;
+}
+
+.button:hover{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#button-1{ color:hsl(31, 77%, 52%);}
+#button-2{ color: hsl(184, 100%, 22%);}
+#button-3{ color: hsl(179, 100%, 13%);}
+
+#button-1:hover, #button-2:hover, #button-3:hover{
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+.attribution { 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+
+}
+
+@media (max-width: 500px){
+    #box{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90vw;
+        height: 80%;
+    }
+    #content-1{
+        width: 90vw;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:0;
+        border-top-right-radius: 10px;  
+    }
+    #content-2{
+        width: 90vw;
+    }
+    #content-3{
+        width: 90vw;
+        border-top-right-radius:0;
+        border-bottom-right-radius:10px;
+        border-bottom-left-radius:10px;
+    }
+    .button{
+        margin-bottom: 50px;
+    }
+    .attribution a{
+        text-decoration: none;
+        font-size: 13px;
+    }
+}
