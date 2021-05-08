@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-bLpsBh55d)
-- Live Site URL: [Add live site URL here](https://3-collum-challenge.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io](https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-bLpsBh55d)
+- Live Site URL: [https://3-collum-challenge.vercel.app/](https://3-collum-challenge.vercel.app/)
 
 ## My process
 
